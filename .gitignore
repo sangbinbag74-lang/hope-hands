@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# 원본 로고 이미지(사이트에는 assets/img/logo.png 사용)
+KakaoTalk_*.png
+/1.png

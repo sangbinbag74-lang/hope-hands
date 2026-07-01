@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>희망손잡이 | 익산 봉사단체</title>
+  <meta name="description" content="손을 맞잡아 희망을 잇고, 함께 만드는 따뜻한 세상. 전북 익산의 나눔 봉사단체 희망손잡이입니다." />
+
+  <!-- 오픈그래프 (카톡/SNS 공유 시 미리보기) -->
+  <meta property="og:title" content="희망손잡이 | 익산 봉사단체" />
+  <meta property="og:description" content="손을 맞잡아 희망을 잇고, 함께 만드는 따뜻한 세상." />
+  <meta property="og:image" content="assets/img/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/img/logo.png" />
+
+  <!-- 폰트: Pretendard -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== 상단 네비게이션 ===================== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__brand">
+        <img src="assets/img/logo.png" alt="희망손잡이 로고" class="nav__logo" />
+        <span class="nav__name">희망손잡이</span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#about" class="nav__link">소개</a>
+        <a href="#activities" class="nav__link">활동 안내</a>
+        <a href="#gallery" class="nav__link">사진 갤러리</a>
+        <a href="#news" class="nav__link">공지·소식</a>
+        <a href="#join" class="nav__link nav__cta">봉사·후원 신청</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== 히어로 ===================== -->
+  <section class="hero" id="home">
+    <div class="hero__blobs" aria-hidden="true">
+      <span class="blob blob--blue"></span>
+      <span class="blob blob--green"></span>
+      <span class="blob blob--pink"></span>
+      <span class="blob blob--yellow"></span>
+    </div>
+
+    <div class="container hero__inner reveal">
+      <span class="hero__badge">📍 전북특별자치도 익산</span>
+      <img src="assets/img/logo.png" alt="희망손잡이" class="hero__logo" />
+      <h1 class="hero__title">손을 맞잡아 <span class="txt-pink">희망</span>을 잇고</h1>
+      <p class="hero__slogan">함께 만드는 따뜻한 세상, <b>희망손잡이</b></p>
+      <div class="hero__actions">
+        <a href="#join" class="btn btn--primary">함께 봉사하기</a>
+        <a href="#about" class="btn btn--ghost">단체 소개 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 통계 스트립 ===================== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal">
+        <strong class="stat__num" data-count="120">0</strong>
+        <span class="stat__label">함께하는 봉사자</span>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__num" data-count="45">0</strong>
+        <span class="stat__label">연간 봉사활동</span>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__num" data-count="30">0</strong>
+        <span class="stat__label">함께한 이웃(가구)</span>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__num" data-count="5">0</strong>
+        <span class="stat__label">활동 지역</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 소개 ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">ABOUT US</span>
+        <h2 class="section__title">희망손잡이를 소개합니다</h2>
+        <p class="section__sub">
+          희망손잡이는 익산 지역에서 서로의 손을 맞잡고 이웃의 희망을 함께 키워가는
+          자원봉사 단체입니다. 작은 도움이 모여 큰 변화가 된다고 믿습니다.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="about__text reveal">
+          <h3>작은 손길이 모여 따뜻한 세상을 만듭니다</h3>
+          <p>
+            혼자서는 어렵지만 함께라면 가능합니다. 희망손잡이는 나이도, 직업도, 배경도
+            다른 사람들이 &lsquo;나눔&rsquo;이라는 하나의 마음으로 모인 공동체입니다.
+            어려운 이웃에게는 든든한 손을, 지역에는 따뜻한 온기를 전합니다.
+          </p>
+          <p class="about__quote">
+            &ldquo;손을 맞잡아 희망을 잇고, 함께 만드는 따뜻한 세상&rdquo;
+          </p>
+          <!-- ✏️ 대표 인사말·설립연도 등이 있으면 여기에 넣으면 좋아요 -->
+        </div>
+
+        <div class="about__cards">
+          <div class="valuecard reveal" style="--c:var(--blue)">
+            <div class="valuecard__icon">🤝</div>
+            <h4>함께</h4>
+            <p>혼자가 아닌 여럿의 힘으로 이웃 곁에 머뭅니다.</p>
+          </div>
+          <div class="valuecard reveal" style="--c:var(--green)">
+            <div class="valuecard__icon">🌱</div>
+            <h4>성장</h4>
+            <p>작은 나눔이 희망의 새싹으로 자라도록 돕습니다.</p>
+          </div>
+          <div class="valuecard reveal" style="--c:var(--pink)">
+            <div class="valuecard__icon">❤️</div>
+            <h4>진심</h4>
+            <p>보여주기가 아닌, 마음을 담은 봉사를 실천합니다.</p>
+          </div>
+          <div class="valuecard reveal" style="--c:var(--yellow)">
+            <div class="valuecard__icon">☀️</div>
+            <h4>희망</h4>
+            <p>지역 사회에 밝고 따뜻한 온기를 전합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 활동 안내 ===================== -->
+  <section class="section section--tint" id="activities">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">WHAT WE DO</span>
+        <h2 class="section__title">이런 활동을 합니다</h2>
+        <p class="section__sub">희망손잡이가 익산 곳곳에서 실천하는 나눔 활동입니다.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal" style="--c:var(--orange)">
+          <span class="card__tag">돌봄</span>
+          <h3>취약계층 돌봄</h3>
+          <p>독거어르신·소외이웃을 찾아뵙고 안부와 생활을 살핍니다.</p>
+        </article>
+        <article class="card reveal" style="--c:var(--green)">
+          <span class="card__tag">나눔</span>
+          <h3>생필품·연탄 나눔</h3>
+          <p>계절마다 필요한 물품을 전하고 따뜻한 겨울나기를 돕습니다.</p>
+        </article>
+        <article class="card reveal" style="--c:var(--teal)">
+          <span class="card__tag">환경</span>
+          <h3>지역 환경 정화</h3>
+          <p>우리 동네를 깨끗하게, 함께 걷고 함께 줍습니다.</p>
+        </article>
+        <article class="card reveal" style="--c:var(--blue)">
+          <span class="card__tag">교육</span>
+          <h3>아동·청소년 지원</h3>
+          <p>배움과 정서를 돕는 멘토링과 후원 활동을 이어갑니다.</p>
+        </article>
+        <article class="card reveal" style="--c:var(--pink)">
+          <span class="card__tag">재능</span>
+          <h3>재능 기부</h3>
+          <p>가진 재능을 나누어 이웃의 일상에 작은 도움을 더합니다.</p>
+        </article>
+        <article class="card reveal" style="--c:var(--yellow)">
+          <span class="card__tag">캠페인</span>
+          <h3>나눔 캠페인</h3>
+          <p>더 많은 이웃이 나눔에 함께할 수 있도록 알리고 모읍니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 사진 갤러리 ===================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">GALLERY</span>
+        <h2 class="section__title">활동 사진</h2>
+        <p class="section__sub">
+          함께한 순간들을 기록합니다.
+          <span class="hint">(✏️ 아래 칸에 실제 활동 사진을 넣어주세요)</span>
+        </p>
+      </div>
+
+      <div class="gallery">
+        <!-- 실제 사진이 준비되면 아래 각 칸의 배경(gallery__ph)을 <img>로 교체하면 됩니다 -->
+        <figure class="gallery__item reveal"><div class="gallery__ph g1">🌿 봉사 현장</div></figure>
+        <figure class="gallery__item reveal"><div class="gallery__ph g2">🤝 나눔의 순간</div></figure>
+        <figure class="gallery__item reveal"><div class="gallery__ph g3">☀️ 함께한 하루</div></figure>
+        <figure class="gallery__item reveal"><div class="gallery__ph g4">❤️ 따뜻한 마음</div></figure>
+        <figure class="gallery__item reveal"><div class="gallery__ph g5">🌱 자라나는 희망</div></figure>
+        <figure class="gallery__item reveal"><div class="gallery__ph g6">📸 활동 기록</div></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 공지·소식 ===================== -->
+  <section class="section section--tint" id="news">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">NEWS</span>
+        <h2 class="section__title">공지사항 · 소식</h2>
+        <p class="section__sub">희망손잡이의 새로운 소식과 봉사자 모집 공고입니다.</p>
+      </div>
+
+      <ul class="news">
+        <li class="news__item reveal">
+          <span class="news__badge news__badge--notice">모집</span>
+          <div class="news__body">
+            <h3>2026년 상반기 정기 봉사자를 모집합니다</h3>
+            <p>나눔에 함께할 새로운 손길을 기다립니다. 아래 신청 폼으로 지원해 주세요.</p>
+          </div>
+          <time class="news__date">2026.07.01</time>
+        </li>
+        <li class="news__item reveal">
+          <span class="news__badge news__badge--event">소식</span>
+          <div class="news__body">
+            <h3>여름맞이 이웃 안부 활동 안내</h3>
+            <p>무더위 속 홀로 계신 이웃을 찾아가는 안부 활동을 진행합니다.</p>
+          </div>
+          <time class="news__date">2026.06.20</time>
+        </li>
+        <li class="news__item reveal">
+          <span class="news__badge news__badge--thanks">감사</span>
+          <div class="news__body">
+            <h3>후원해 주신 모든 분께 감사드립니다</h3>
+            <p>여러분의 따뜻한 마음이 이웃에게 큰 힘이 되었습니다.</p>
+          </div>
+          <time class="news__date">2026.06.05</time>
+        </li>
+        <!-- ✏️ 새 소식은 위 형식을 복사해서 추가하면 됩니다 -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== 봉사·후원 신청 ===================== -->
+  <section class="section" id="join">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">JOIN US</span>
+        <h2 class="section__title">함께해요, 희망손잡이</h2>
+        <p class="section__sub">봉사 참여, 후원, 그 밖의 문의를 남겨주세요. 확인 후 연락드리겠습니다.</p>
+      </div>
+
+      <div class="join">
+        <!-- 신청 폼 -->
+        <form class="join__form reveal" id="joinForm">
+          <div class="field">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="성함을 입력해 주세요" required />
+          </div>
+          <div class="field field--row">
+            <div>
+              <label for="phone">연락처</label>
+              <input type="tel" id="phone" name="phone" placeholder="010-0000-0000" required />
+            </div>
+            <div>
+              <label for="type">참여 유형</label>
+              <select id="type" name="type">
+                <option value="봉사 참여">봉사 참여</option>
+                <option value="후원 문의">후원 문의</option>
+                <option value="기타 문의">기타 문의</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">남기실 말씀</label>
+            <textarea id="message" name="message" rows="4" placeholder="참여하고 싶은 활동이나 궁금한 점을 자유롭게 적어주세요"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">신청 보내기</button>
+          <p class="join__note" id="formNote"></p>
+        </form>
+
+        <!-- 연락처 / 후원 정보 -->
+        <aside class="join__info reveal">
+          <h3>연락처 안내</h3>
+          <ul class="contact">
+            <li><span class="contact__ic">📞</span><div><b>전화</b><br />010-XXXX-XXXX</div></li>
+            <li><span class="contact__ic">✉️</span><div><b>이메일</b><br />hope@example.com</div></li>
+            <li><span class="contact__ic">💬</span><div><b>카카오톡</b><br />채널 검색: 희망손잡이</div></li>
+            <li><span class="contact__ic">📍</span><div><b>주소</b><br />전북특별자치도 익산시 ○○로 00</div></li>
+          </ul>
+
+          <div class="donate">
+            <h4>💛 후원 계좌</h4>
+            <p class="donate__acc">○○은행 000-0000-0000-00<br /><small>예금주: 희망손잡이</small></p>
+            <p class="donate__msg">여러분의 후원은 이웃의 희망이 됩니다.</p>
+          </div>
+          <!-- ✏️ 위 연락처/계좌는 실제 정보로 바꿔주세요 -->
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 푸터 ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/logo.png" alt="희망손잡이" class="footer__logo" />
+        <div>
+          <b>희망손잡이</b>
+          <p>손을 맞잡아 희망을 잇고, 함께 만드는 따뜻한 세상</p>
+        </div>
+      </div>
+      <nav class="footer__links">
+        <a href="#about">소개</a>
+        <a href="#activities">활동 안내</a>
+        <a href="#gallery">사진 갤러리</a>
+        <a href="#news">공지·소식</a>
+        <a href="#join">봉사·후원 신청</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 희망손잡이 (익산). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="totop" id="toTop" aria-label="맨 위로">↑</a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
